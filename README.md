@@ -26,7 +26,7 @@ Users should be able to:
 
 ![](./Frontend%20Mentor%20Four%20card%20feature%20section%20desktop.png)
 ![](./Frontend%20Mentor%20Four%20card%20feature%20section%20tablet.png)
-![](./Frontend%20Mentor%20Four%20card%20feature%20section%20mobile.png)
+![](./Frontend%20Mentor%20Four%20card%20feature%20section%20Mobile.png)
 
 ### Links
 

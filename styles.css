@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+:root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    font-size: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: hsl(0, 0%, 98%);
+}
+
+header {
+    text-align: center;
+    margin: 2rem 0 2rem;
+}
+
+header h2 {
+    font-weight: 200;
+    font-size: 24px;
+    color: hsl(234, 12%, 34%);
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 1rem;
+}
+
+header p {
+    color: hsl(229, 6%, 66%);
+    padding: 0 30%;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.8rem;
+    padding: 0 14rem;
+    margin: 0 auto 2rem;
+}
+
+main > article, section {
+    width: 33%;
+}
+
+article {
+    height: 15.5rem;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 3px 5px 2px hsl(229, 6%, 66%);
+    padding: 2rem;
+}
+article h4 {
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 1.25rem;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+article p {
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+}
+
+article figure {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: end;
+}
+
+.supervisor {
+    border-top: 5px solid var(--cyan);
+}
+
+.Team {
+    border-top: 5px solid var(--red);
+    margin-bottom: 1.5rem;
+}
+
+.Karma {
+    border-top: 5px solid var(--orange);
+}
+
+.Calculator {
+    border-top: 5px solid var(--blue);
+}
+
+@media (max-width: 1440px) {
+    main {
+        padding: 0 8rem;
+    }
+}
+
+@media (max-width: 1250px) {
+    header p {
+        padding: 0 20%;
+    }
+    main {
+        padding: 0 4rem;
+    }
+    article {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    main {
+        padding: 0 2rem;
+        gap: 1.25rem;
+    }
+}
+
+@media (max-width: 850px) {
+    header p {
+        padding: 0 10%;
+    }
+    main {
+        padding: 0 1rem;
+    }
+    article {
+        padding: 1.5rem;
+        height: 16rem;
+    }
+    article figure {
+        margin-top: 0.5rem;
+    }
+    article h4 {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 700px) {
+    article h4 {
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media (max-width: 650px) {
+    header p {
+        padding: 0 12%;
+    }
+    main {
+        flex-direction: column;
+        padding: 0 4rem;
+        gap: 1.5rem;
+    }
+    main>article, section {
+        width: 100%;
+    }
+    article {
+        padding: 2rem !important;
+    }
+    article figure {
+        margin-top: 1rem;
+    }
+    article h4 {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 450px) {
+    header p {
+        padding: 0 5%;
+    }
+    main {
+        padding: 0 2rem;
+    }
+}
